@@ -10,7 +10,6 @@ public class Variabelen {
     name;/*""*/
 
     /*deze variabelen komen eenmaal voor*/
-    List<Pokemon> pokemons;
     town;/*""*/
 
 }
