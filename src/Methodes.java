@@ -18,14 +18,14 @@ public class Methodes {
 
 
 
-    void thunderPunch(Pokemon name, Pokemon enemy);
 
-    void electroBall(Pokemon name, Pokemon enemy);
+
+
 
     public void solarBeam(Pokemon name, Pokemon enemy);
 
 
-    void thunder(Pokemon name, Pokemon enemy);
+
 
 
 
@@ -34,8 +34,6 @@ public class Methodes {
     public void leaveBlade(Pokemon name, Pokemon enemy);
 
 
-
-    void voltTackle(Pokemon name, Pokemon enemy);
 
 
 }
