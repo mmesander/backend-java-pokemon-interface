@@ -260,5 +260,4 @@ public class PokemonGymImpl implements PokemonGym {
             fightRound(trainer, gym, pokemon, gymPokemon);
         }
     }
-
 }
