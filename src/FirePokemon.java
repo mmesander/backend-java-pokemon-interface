@@ -13,7 +13,7 @@ public class FirePokemon extends Pokemon {
     }
 
     // Methods
-    void fireLash(Pokemon name, Pokemon enemy) {
+    public void fireLash(Pokemon name, Pokemon enemy) {
         System.out.println(name.getName() + " attacks " + enemy.getName() + " with " + attacks.get(0));
         switch (enemy.getType()) {
             case "fire" -> {
@@ -35,7 +35,7 @@ public class FirePokemon extends Pokemon {
         }
     }
 
-    void flameThrower(Pokemon name, Pokemon enemy) {
+    public void flameThrower(Pokemon name, Pokemon enemy) {
         System.out.println(name.getName() + " attacks " + enemy.getName() + " with " + attacks.get(1));
         switch (enemy.getType()) {
             case "fire" -> {
@@ -57,7 +57,7 @@ public class FirePokemon extends Pokemon {
         }
     }
 
-    void inferno(Pokemon name, Pokemon enemy) {
+    public void inferno(Pokemon name, Pokemon enemy) {
         System.out.println(name.getName() + " attacks " + enemy.getName() + " with " + attacks.get(2));
         switch (enemy.getType()) {
             case "fire" -> {
@@ -79,7 +79,7 @@ public class FirePokemon extends Pokemon {
         }
     }
 
-    void pyroBall(Pokemon name, Pokemon enemy) {
+    public void pyroBall(Pokemon name, Pokemon enemy) {
         System.out.println(name.getName() + " attacks " + enemy.getName() + " with " + attacks.get(3));
         switch (enemy.getType()) {
             case "fire" -> {
