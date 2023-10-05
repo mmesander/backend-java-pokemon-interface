@@ -12,11 +12,11 @@ public class Methodes {
 
 
     /*De volgende 16 methodes zijn aanvallen*/
-    void surf(Pokemon name, Pokemon enemy);
+
 
     public void leafStorm(Pokemon name, Pokemon enemy);
 
-    void hydroPump(Pokemon name, Pokemon enemy);
+
 
     void thunderPunch(Pokemon name, Pokemon enemy);
 
@@ -24,11 +24,10 @@ public class Methodes {
 
     public void solarBeam(Pokemon name, Pokemon enemy);
 
-    void hydroCanon(Pokemon name, Pokemon enemy);
 
     void thunder(Pokemon name, Pokemon enemy);
 
-    void rainDance(Pokemon name, Pokemon enemy);
+
 
     public void leechSeed(Pokemon name, Pokemon enemy);
 
