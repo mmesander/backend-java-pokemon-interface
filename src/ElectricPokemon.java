@@ -88,8 +88,8 @@ public class ElectricPokemon extends Pokemon {
                 enemy.setHp(enemy.getHp() - 25);
             }
             case "grass" -> {
-                System.out.println(enemy.getName() + " gets 35 hp");
-                enemy.setHp(enemy.getHp() + 35);
+                System.out.println(enemy.getName() + " loses 35 hp");
+                enemy.setHp(enemy.getHp() - 35);
             }
             case "water" -> {
                 System.out.println(enemy.getName() + " loses 55 hp");
