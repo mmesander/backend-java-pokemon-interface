@@ -11,10 +11,6 @@ public class Variabelen {
 
     /*deze variabelen komen eenmaal voor*/
     List<Pokemon> pokemons;
-//    int level;
-//    int hp;
-//    food;/*""*/
-//    sound;/*""*/
     town;/*""*/
 
 }
