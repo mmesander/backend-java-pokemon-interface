@@ -3,12 +3,12 @@ import java.util.List;
 
 public class FirePokemon extends Pokemon {
     // Variables
-    private final String type = "fire";
+    private static final String type = "fire";
     private final List<String> attacks = Arrays.asList("FireLash", "FlameThrower", "PyroBall", "Inferno");
 
 
     // Constructor
-    public FirePokemon(String name, int level, int hp, String food, String sound, String type) {
+    public FirePokemon(String name, int level, int hp, String food, String sound) {
         super(name, level, hp, food, sound, type);
     }
 
@@ -18,19 +18,19 @@ public class FirePokemon extends Pokemon {
         switch (enemy.getType()) {
             case "fire" -> {
                 System.out.println(enemy.getName() + " loses 5 hp");
-                enemy.setHp(getHp() - 5);
+                enemy.setHp(enemy.getHp() - 5);
             }
             case "grass" -> {
                 System.out.println(enemy.getName() + " loses 40 hp");
-                enemy.setHp(getHp() - 40);
+                enemy.setHp(enemy.getHp() - 40);
             }
             case "water" -> {
                 System.out.println(enemy.getName() + " loses 30 hp");
-                enemy.setHp(getHp() - 30);
+                enemy.setHp(enemy.getHp() - 30);
             }
             case "electric" -> {
                 System.out.println(enemy.getName() + " loses 15 hp");
-                enemy.setHp(getHp() - 15);
+                enemy.setHp(enemy.getHp() - 15);
             }
         }
     }
@@ -40,19 +40,19 @@ public class FirePokemon extends Pokemon {
         switch (enemy.getType()) {
             case "fire" -> {
                 System.out.println(enemy.getName() + " loses 5 hp");
-                enemy.setHp(getHp() - 5);
+                enemy.setHp(enemy.getHp() - 5);
             }
             case "grass" -> {
                 System.out.println(enemy.getName() + " loses 45 hp");
-                enemy.setHp(getHp() - 45);
+                enemy.setHp(enemy.getHp() - 45);
             }
             case "water" -> {
                 System.out.println(enemy.getName() + " loses 30 hp");
-                enemy.setHp(getHp() - 30);
+                enemy.setHp(enemy.getHp() - 30);
             }
             case "electric" -> {
                 System.out.println(enemy.getName() + " loses 20 hp");
-                enemy.setHp(getHp() - 20);
+                enemy.setHp(enemy.getHp() - 20);
             }
         }
     }
@@ -62,19 +62,19 @@ public class FirePokemon extends Pokemon {
         switch (enemy.getType()) {
             case "fire" -> {
                 System.out.println(enemy.getName() + " loses 10 hp");
-                enemy.setHp(getHp() - 10);
+                enemy.setHp(enemy.getHp() - 10);
             }
             case "grass" -> {
                 System.out.println(enemy.getName() + " loses 50 hp");
-                enemy.setHp(getHp() - 50);
+                enemy.setHp(enemy.getHp() - 50);
             }
             case "water" -> {
                 System.out.println(enemy.getName() + " loses 35 hp");
-                enemy.setHp(getHp() - 35);
+                enemy.setHp(enemy.getHp() - 35);
             }
             case "electric" -> {
                 System.out.println(enemy.getName() + " loses 25 hp");
-                enemy.setHp(getHp() - 25);
+                enemy.setHp(enemy.getHp() - 25);
             }
         }
     }
@@ -84,19 +84,19 @@ public class FirePokemon extends Pokemon {
         switch (enemy.getType()) {
             case "fire" -> {
                 System.out.println(enemy.getName() + " loses 15 hp");
-                enemy.setHp(getHp() - 15);
+                enemy.setHp(enemy.getHp() - 15);
             }
             case "grass" -> {
                 System.out.println(enemy.getName() + " loses 60 hp");
-                enemy.setHp(getHp() - 60);
+                enemy.setHp(enemy.getHp() - 60);
             }
             case "water" -> {
                 System.out.println(enemy.getName() + " loses 40 hp");
-                enemy.setHp(getHp() - 40);
+                enemy.setHp(enemy.getHp() - 40);
             }
             case "electric" -> {
                 System.out.println(enemy.getName() + " loses 30 hp");
-                enemy.setHp(getHp() - 30);
+                enemy.setHp(enemy.getHp() - 30);
             }
         }
     }
