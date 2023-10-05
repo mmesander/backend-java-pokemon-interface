@@ -8,7 +8,7 @@ public class ElectricPokemon extends Pokemon {
 
 
     // Constructor
-    public ElectricPokemon(String name, int level, int hp, String food, String sound, String type) {
+    public ElectricPokemon(String name, int level, int hp, String food, String sound) {
         super(name, level, hp, food, sound, type);
     }
 
